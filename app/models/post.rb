@@ -5,7 +5,8 @@ class Post < ActiveRecord::Base
 
     validates :name,  presence: true
     validates :content,  presence: true
-
+    validates :content,  presence: true
+    # accepts_nested_attributes_for :tags
 
   
 end
